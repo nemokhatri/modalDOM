@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.bgImage {
+    position: absolute;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.container-1 {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    padding: 100px;
+    width: 40%;
+    height: 100px;
+    margin-left: 30%;
+    margin-top: 15%;
+    border-radius: 10px;
+}
+
+.container-2 {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    padding: 100px;
+    width: 40%;
+    height: 100px;
+    margin-left: 30%;
+    margin-top: 15%;
+    border-radius: 10px;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.container-2.show {
+    pointer-events: auto;
+    opacity: 1;
+}
+
+
+.modal-1 {
+    position: absolute;
+    top: 10%;
+    font-size: 50px;
+}
+
+.modal-2 {
+    position: absolute;
+    top: 10%;
+    font-size: 50px;
+}
+
+.subBtn {
+    position: absolute;
+    top: 75%;
+    padding: 10px 50px;
+    border: 0;
+    background-color: rgb(167, 166, 166);
+    color: white;
+    font-size: 15px;
+    border-radius: 5px;
+    outline: none;
+    box-shadow: 0 2px 5px black;
+}
+
+.subBtn:hover {
+    background: #74ff17;
+    border: 0;
+    outline: none;
+    color: white;
+    box-shadow: 0 2px 5px 0 black;
+    cursor: pointer;
+}
+
+.okBtn {
+    position: absolute;
+    top: 75%;
+    padding: 10px 50px;
+    border: 0;
+    color: white;
+    background-color: gray;
+    font-size: 15px;
+    border-radius: 5px;
+    outline: none;
+    box-shadow: 0 2px 5px black;
+}
+
+.okBtn:hover {
+    background: #74ff17;
+    border: 0;
+    outline: none;
+    color: white;
+    box-shadow: 0 2px 5px 0 black;
+    cursor: pointer;
+}
